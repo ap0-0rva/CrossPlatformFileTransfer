@@ -3,7 +3,7 @@
 A client–server program written in **C++** that transfers files over **TCP sockets**.
 
 The client reads a file and sends it to the server in **fixed-size chunks**.
-The server receives the chunks, verifies them using a checksum, and writes the file to disk.
+The server receives the chunks and writes the file to disk.
 
 During the transfer, the program displays **progress, total chunks, transfer time, and average speed**.
 
