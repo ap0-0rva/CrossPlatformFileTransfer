@@ -4,7 +4,7 @@
 #include <cstdint>
 
 #define PORT 9000
-#define CHUNK_SIZE 262144 // 64 KB
+#define CHUNK_SIZE 262144 // 256 KB
 
 #ifdef _WIN32
 
